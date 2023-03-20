@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(244, 184, 96);
+  max-height: fit-content;
+  max-width: fit-content;
+}
+
+header {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  max-height: fit-content;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 900;
+  font-size: 45px;
+  margin-bottom: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+h1 {
+  margin: 0;
+  padding-bottom: 0px;
+}
+
+main {
+  display: flex;
+  width: 750px;
+  height: 750px;
+  margin-left: 100px;
+  margin-right: 100px;
+  flex-direction: column;
+}
+
+.playControls {
+  flex-direction: row;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+button {
+  background-color: rgb(50, 55, 59);
+  color: whitesmoke;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#score {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+select,
+button {
+  max-width: 150px;
+}
+
+#enterName {
+  width: 195px;
+}
+
+label {
+  font-size: 15px;
+  color: black;
+}
+
+td {
+  height: 15px;
+  max-width: 15px;
+  background-color: rgb(50, 55, 59);
+}
+
+table {
+  width: 700px;
+  height: 700px;
+  margin-top: 0;
+  background-color: rgb(50, 55, 59);
+}
+
+.apple {
+  background-color: rgba(238, 10, 10, 0.911);
+  border-radius: 100px;
+}
+
+.snake {
+  background-color: rgba(13, 223, 13, 0.822);
+}
+
+.border {
+  background-color: rgb(74, 88, 89);
+}
+
+#message {
+  margin-bottom: 15px;
+  font-size: 30px;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.ouch {
+  background-color: rgb(68, 6, 6);
+}
